@@ -26,7 +26,8 @@ export function TaskList() {
   function handleCreateNewTask() {
     if (!newTaskTitle) return;
 
-    setTasks((oldState) => [...oldState, newTask]);
+    setTasks((oldState) =>
+      [...oldState, newTask]);
     setNewTaskTitle("");
   }
 
