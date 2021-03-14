@@ -27,7 +27,8 @@ export function TaskList() {
     if (!newTaskTitle) return;
 
     setTasks((oldState) =>
-      [...oldState, newTask]);
+      [...oldState,
+        newTask]);
     setNewTaskTitle("");
   }
 
